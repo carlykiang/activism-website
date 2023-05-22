@@ -1,0 +1,275 @@
+/*
+  Add style rules for the body of a your webpage.
+  Note: These rules will be applied to all elements.
+*/
+body {
+
+    /* Add a background color or image */
+    background-color: rgb(214, 208, 244);
+    background-image: url('');
+
+    /* Customize the font, size, and color for text*/
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+
+    /* Adjust the padding and margins */
+    /*padding-top: 30px;*/
+    /*padding-left: 30px;*/
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    
+
+}
+
+#womentech{
+    margin: auto;
+}
+
+.header-button{
+    margin: auto;
+}
+
+.impact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.impact-item{
+    width: 500px;  /* Or whatever */
+    /*height: 200px;*/
+
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+h1 {
+    padding-top: 50px;
+    /*
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;*/
+    font-size: 60px;
+
+}
+
+h2 {
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+
+}
+
+h3 {
+
+    font-size: 20px;
+}
+
+p {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+}
+
+a:link{
+    color:#008CBA;
+}
+a:visited{
+    color:#4a3996;
+}
+a:hover{
+    color:#8d7bde;
+}
+
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {
+
+}
+
+ol li {
+
+}
+
+
+ul {
+
+}
+
+ul li {
+
+}
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+.header-button{
+    display: flex;
+    
+}
+button {
+    margin: auto;
+    background-color:  #8d7bde;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 32px;
+    cursor: pointer;
+  }
+
+
+/* Select and style elements by class name or ID */
+
+/* Class selector for header*/
+/* Example: This styles elements with class="header"*/
+.header-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 300px
+
+}
+
+.header-item {
+    justify-content: space-evenly;
+    padding-top: 40px;
+    width: 500px;  /* Or whatever */
+    height: 200px;
+
+}
+
+
+.header-item:nth-of-type(1) {
+    width: 35%;
+    padding-left:100px; 
+    padding-right:0px;
+
+}
+
+.header-item:nth-of-type(2) {
+    width: 65%;
+    padding-left:0px;
+    padding-right:50px;
+
+}
+
+
+/* Example: This styles an element with an id="header-img" */
+#header-left {
+    width: 30%;
+
+}
+
+#header-right {
+    width: 70%;
+}
+
+#header-img {
+    width: 75%;
+    max-width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.header-button {
+
+}
+
+img#womentech{
+    width: 75%;
+}
+
+img#banner{
+    width: 75%;
+}
+
+.footer {
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+.footer-text{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Navbar CSS*/
+/* General style rule set for all items in ul */
+.navbar ul {
+    height: 7%;
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+    margin-left: 0;
+    background-color: #4a3996;
+    position: fixed;
+    list-style: none;
+    width:100%;
+    overflow: hidden;
+    top: 0;
+
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+    /*margin-top: 30px;
+    margin-bottom: 30px;*/
+    float: right;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+    font-family: Arial;
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    align-items: right;
+    
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+color: rgb(174, 159, 238);
+
+}
