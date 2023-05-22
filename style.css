@@ -95,7 +95,7 @@ a:link{
     color:#008CBA;
 }
 a:visited{
-    color:#4a3996;
+    color:#1a0b5a;
 }
 a:hover{
     color:#8d7bde;
@@ -228,6 +228,10 @@ img#banner{
 }
 
 /* Navbar CSS*/
+
+.navbar {
+    background-color: #4a3996;
+}
 /* General style rule set for all items in ul */
 .navbar ul {
     /*height: 7%;*/
@@ -237,7 +241,7 @@ img#banner{
     /*
     padding-left: 0;
     margin-left: 0;*/
-    background-color: #4a3996;
+    /*background-color: #4a3996;*/
     position: fixed;
     list-style: none;
     width:100%;
@@ -291,6 +295,23 @@ color: rgb(174, 159, 238);
 .dark-mode {
     background-color: #4a3996;
     color: white;
+
+
+}
+
+.navbar-light-mode {
+    background-color: rgb(174, 159, 238);
+}
+
+.theme-button-light-mode{
+    margin: auto;
+    background-color:  rgb(174, 159, 238);
+    border: none;
+    color: #4a3996;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 32px;
+    cursor: pointer;
 
 
 }
