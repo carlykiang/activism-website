@@ -230,11 +230,13 @@ img#banner{
 /* Navbar CSS*/
 /* General style rule set for all items in ul */
 .navbar ul {
-    height: 7%;
+    /*height: 7%;*/
     margin: 0;
     padding: 0;
+    
+    /*
     padding-left: 0;
-    margin-left: 0;
+    margin-left: 0;*/
     background-color: #4a3996;
     position: fixed;
     list-style: none;
@@ -244,16 +246,28 @@ img#banner{
 
 }
 
+#theme-button {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.navbar-item {
+    margin-top: 15px;
+
+}
 /* Style rule set for individual li */
 .navbar ul li {
-    /*margin-top: 30px;
-    margin-bottom: 30px;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
     float: right;
-    padding-top: 15px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
 }
+
 
 
 /* Style rule set for individual li link */
@@ -271,5 +285,12 @@ img#banner{
 /* Style rule set for hovered link */
 .navbar ul li a:hover {
 color: rgb(174, 159, 238);
+
+}
+
+.dark-mode {
+    background-color: #4a3996;
+    color: white;
+
 
 }
